@@ -1,0 +1,58 @@
+*{
+    padding:0;
+    margin: 0;
+}
+.btn {
+    flex-grow: 1;
+    width: 100px;
+    height: 50px;
+}
+body{
+    background-color: #222222;
+    height: 100vh;
+
+}
+.container{
+    margin-top: 3%;
+    position: relative;
+    display: flex;
+    width: auto;
+    height: auto;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+
+}
+.slider{
+    width: 500px;
+    height: 500px;
+    background-color: blueviolet;
+}
+.slider img{
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    background-color: blueviolet;
+}
+.nextbtn {
+    background-color: rgb(185, 153, 214);
+    flex-grow: 1;
+    cursor: pointer;
+    z-index: 2;
+
+}
+.prevbtn {
+    background-color: red;
+    flex-grow: 1;
+    cursor: pointer;
+    z-index: 2;
+}
+#a{
+    opacity: 0;
+}
+#b{
+    opacity: 0;
+}
+#c{
+    opacity: 0;
+}
